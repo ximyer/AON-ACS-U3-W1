@@ -1,0 +1,58 @@
+Counting DNA nucleotides
+1.- Add the gene from the website to VSC as a string.
+2.- Assign the set of amino acids a variable.
+3.- Create a set in which the variable is assigned to another variable.
+4.- Create a loop in which each amino acid (A,G,T,C) presented in the gene is counted.
+5.- Print how many times each amino acid is present (after counting ofc).
+
+
+
+Transcribing DNA to RNA
+1.- Same as P1, add the gene from the website to VSC as a string.
+2.- Store the string in a variable.
+3.- work with the .replace to take the 'T's out and write 'U's instead.
+4.- Print the final gene with the T amino acids being replaced by an U.
+
+
+
+Complementing DNA
+1.- Paste the gene from the website to VSC as a string.
+2.- Assign the string a variable.
+3.- Rewrite the string backwards with the [::-1] method.
+4.- Use the .replace method to change each amino acid to its complementary, but make sure that you don't replace the new amino acids with what you're rewritten.
+5.- Print the final string.
+
+
+
+Computing GC Content
+1.- Paste the three genes from the website to VSC on three different strings.
+2.- Assign each of the three strings a different variable. 
+3.- Define a function that counts the number of times that 'G' and 'C' appear on each string.
+4.- Make some numbers for percentages: (num of actual cases / total) * 100 -> So it's like: Not 0.67 but 67.
+5.- Store the percentages in a dictionary so they are not lost.
+6.- Get the maximum value from that dictionary.
+7.- Print the highest value.
+
+
+
+Finding a Motif in DNA
+1.- Paste both strings from the website to VSC as two different strings.
+2.- Assign each string a variable.
+3.- Start a loop that gives each amino acid an index.
+4.- Write an if condition that examines each index from the big string in search of the motif.
+5.- Verify that the index starts with the substring.
+6.- Print where the motif starts.
+
+
+
+
+Transitions and Transversions
+1.- Create two dictionaries like the ones in the website, one that includes the transition and the other one the transversions.
+2.- Define a function that will calculate the rario of transversions and transitions.
+3.- Define inside what's a transversion and what's a transition.
+4.- Paste the two Rosalind Strings from the website to VSC as independent stirngs.
+5.- Print the strings to find the transitions or transversions.
+
+
+
+
